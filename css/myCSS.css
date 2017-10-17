@@ -1,6 +1,16 @@
 *{
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lk a {
+    text-decoration: none !important;
+    padding: 5px;
+    color: brown;
+}
+
+.row.hr {
+    border-bottom: 1px solid;
 }
 
 div#header {
@@ -12,17 +22,11 @@ div#content {
     height: 400px;
 }
 
-div#content .col-8 {
-    background-color: #850bc7;
-    height: 400px;
-}
+
 
 div#footer {
-    height: 100px;
-    background-color: chocolate;
+    background-color: #f3f3f3;
+    margin-top: 31px;
+    height: 300px;
 }
 
-div#content .col-4 {
-    height: 400px;
-    background-color: chartreuse;
-}

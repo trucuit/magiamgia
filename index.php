@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/css-header-4.css">
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=vietnamese" rel="stylesheet">
 </head>
 <body>
 	<!-- header -->

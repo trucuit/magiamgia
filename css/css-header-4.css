@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#content button.btn.btn-primary {
+    margin: 0 auto;
+    background-color: #74d14c;
+    border: none;
+    display: block;
+}
+
+h4 {}
+
+table {
+    margin: auto;
+    width: 303px;
+}
+
+td {
+    padding: 10px;
+}
+
+a.news {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: 1px dotted;
+    color: #4a0000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a.coupon {
+    display: inline-block;
+    margin-top: 20px;
+    border-bottom: 1px dotted;
+    color: #000;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    padding-bottom: 15px;
+    display: block;
+}
+
+#content a.label {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    /* margin-left: 18px; */
+    background-color: #74d14c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none !important;
+    float: left;
+}
+
+#content h4.sale-hot {
+    /* background-image: url('../images/board.jpg'); */
+    /* border-radius: 10px 10px 10px 10px; */
+    color: #74d14c;
+    border: 2px solid #083b66;
+    border-width: 2px 0 2px 0;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 319px 71px;
+    /* margin: -16px -16px; */
+    /* margin-left: -16px; */
+    /* text-shadow: 3px 3px 1px #170a0a; */
+    /* margin-right: -16px; */
+    /* background-color: #74d14c; */
+    text-align: center;
+}
+
+#content  .sale1, .sale2, .sale3, .sale4{
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    margin-top: 15px;
+}
+
+#content .find{
+    margin-top: 15px;
+    width: 100%;
+}
+>>>>>>> huyhao

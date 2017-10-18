@@ -1,8 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
-=======
 }
 
 .lk a {
@@ -13,14 +11,12 @@
 
 .row.hr {
     border-bottom: 1px solid;
->>>>>>> origin/demo
 }
 html{
     font-size: 15px;
 }
 
-
-/* content */
+/* contnt */
 #content .product {
     border-bottom: 1px solid #d6d6d6;
     box-sizing: border-box;
@@ -99,15 +95,16 @@ div#content {
     height: 400px;
 }
 
-
-
-div#footer {
-    background-color: #f3f3f3;
-    margin-top: 31px;
-    height: 300px;
+div#content .col-8 {
+    background-color: #850bc7;
+    height: 400px;
 }
 
-<<<<<<< HEAD
+div#footer {
+    height: 100px;
+    background-color: chocolate;
+}
+
 div#content .col-4 {
     height: 400px;
     background-color: chartreuse;
@@ -144,5 +141,3 @@ div#content .col-4 {
         *{}
     }
 /* //tablet */
-=======
->>>>>>> origin/demo

@@ -12,11 +12,8 @@
 	<link rel="stylesheet" href="css/css-header-4.css">
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
 </head>
 <body>
-<div class="wrap">
 	<!-- header -->
 	<?php include_once 'html/header.html'; ?>
 	<!-- //header -->
@@ -32,6 +29,5 @@
 	<!-- footer -->
 	<?php include_once 'html/footer.html'; ?>
 	<!-- //footer -->
-</div>
 </body>
 </html>

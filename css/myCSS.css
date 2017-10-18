@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.lk a {
+    text-decoration: none !important;
+    padding: 5px;
+    color: brown;
+}
+
+.row.hr {
+    border-bottom: 1px solid;
+}
+
+div#header {
+    height: 100px;
+    background-color: aqua;
+}
+
+div#content {
+    height: 400px;
+}
+
+
+
+div#footer {
+    background-color: #f3f3f3;
+    margin-top: 31px;
+    height: 300px;
+}
+

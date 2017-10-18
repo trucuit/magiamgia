@@ -1,7 +1,14 @@
 *{
-	margin:0;
-	padding: 0;
+    margin:0;
+    padding: 0;
 }
+
+button.btn.btn-primary {
+    background-color: #727079;
+    margin-left: 111px;
+}
+
+h4 {}
 
 table {
     margin: auto;
@@ -18,6 +25,7 @@ a.news {
     margin-top: 10px;
     border-bottom: 1px dotted;
     color: #4a0000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a.coupon {
@@ -25,6 +33,7 @@ a.coupon {
     margin-top: 20px;
     border-bottom: 1px dotted;
     color: #4a0000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a.label {
@@ -34,29 +43,32 @@ a.label {
     margin-left: 18px;
     background-color: red;
     color: white;
-    box-shadow: 4px 3px cadetblue;
+    /* box-shadow: 4px 3px cadetblue; */
     text-decoration: none !important;
     float: left;
 }
 
 h4.sale-hot {
-    background-image: url('../images/board.jpg');
-    border-radius: 10px 10px 10px 10px;
-    color: rgb(255, 14, 14);
-    font-family: 'Lobster', cursive;
-    text-align: center;
+    /* background-image: url('../images/board.jpg'); */
+    /* border-radius: 10px 10px 10px 10px; */
+    color: rgb(244, 247, 251);
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 20px;
     background-repeat: no-repeat;
     background-size: 319px 71px;
-    margin-top: 5px;
-    text-shadow: 3px 3px 1px #170a0a;
+    /* margin: -16px -16px; */
+    margin-left: -16px;
+    /* text-shadow: 3px 3px 1px #170a0a; */
+    margin-right: -16px;
+    background-color: #727079;
+    text-align: center;
 }
 
 .sale1,.sale2,.sale3,.sale4{
     border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 6px;
-    box-shadow: 5px 5px 29px;
-    background-color: rgba(16, 128, 87, 0.08);
+    /* border-radius: 6px; */
+    box-shadow: 2px 3px 5px;
+    background-color: rgba(197, 226, 216, 0.08);
     padding-bottom: 10px;
     margin-top: 15px;
 }

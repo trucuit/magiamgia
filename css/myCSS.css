@@ -3,20 +3,96 @@
     padding: 0px;
 }
 
-.lk a {
+#footer .copyright.text-center {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+
+html{
+    font-size: 15px;
+}
+
+/* content */
+
+#content button.btn.btn-primary {
+    background-color: #74d14c;
+    margin-left: 111px;
+    border: none;
+}
+
+
+#content table {
+    margin: auto;
+    width: 303px;
+}
+
+#content td {
+    padding: 10px;
+}
+
+#content a.news {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: 1px dotted;
+    color: #4a0000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#content a.coupon {
+    display: inline-block;
+    margin-top: 20px;
+    border-bottom: 1px dotted;
+    color: #000;
+    padding-bottom: 15px;
+    display: block;
+}
+
+#content a.label {
+    display: block;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: #74d14c;
+    color: white;
+    text-decoration: none !important;
+    float: left;
+}
+
+#content h4.sale-hot {
+    color: #083b66;
+    border: 2px solid #74d14c;
+    border-width: 0px 0 2px 0;
+    padding: 15px 0;
+    margin: 0 -10px 10px -10px;
+    text-align: center;
+}
+
+#content .sale1,.sale2,.sale3,.sale4{
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+#content .find{
+    padding-bottom: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#content .col-md-4 .row {
+    margin-bottom: 20px;
+}
+
+#content .lk a {
     text-decoration: none !important;
     padding: 5px;
     color: brown;
 }
 
-.row.hr {
+#content .row.hr {
     border-bottom: 1px solid;
-}
-html{
-    font-size: 15px;
-}
-
-/* contnt */
+} 
 #content .product {
     border-bottom: 1px solid #d6d6d6;
     box-sizing: border-box;
@@ -26,9 +102,9 @@ html{
 #content .coupon h4 {
     text-align: center;
     color: #083b66;
-    background-color: #d6d6d6;
+    background-color: rgba(214, 214, 214, 0.2);
     border-top: 3px solid #74d14c;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 /* //content */
 
@@ -83,32 +159,7 @@ div#header ul li a:hover {
     background: transparent;
     padding: 0px;
 }
-/* //header */
 
-
-/*div#header {
-    height: 100px;
-    background-color: aqua;
-}
-
-div#content {
-    height: 400px;
-}
-
-div#content .col-8 {
-    background-color: #850bc7;
-    height: 400px;
-}
-
-div#footer {
-    height: 100px;
-    background-color: chocolate;
-}
-
-div#content .col-4 {
-    height: 400px;
-    background-color: chartreuse;
-    }*/
 
     /* mobile */
     @media (max-width: 575px) { 
@@ -147,12 +198,6 @@ div#content .col-4 {
 
 div#footer {
     background-color: #f3f3f3;
-    margin-top: 31px;
-    height: 300px;
-<<<<<<< HEAD
-    font-family: 'Roboto Condensed', sans-serif;
+    padding: 40px 0 0px 0;
 }
 
-=======
-}
->>>>>>> c2ae45d852f47fd8f5af98d778516ae07f54dda3

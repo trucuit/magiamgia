@@ -141,3 +141,12 @@ div#content .col-4 {
         *{}
     }
 /* //tablet */
+
+
+
+
+div#footer {
+    background-color: #f3f3f3;
+    margin-top: 31px;
+    height: 300px;
+}

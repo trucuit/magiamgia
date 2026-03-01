@@ -1,10 +1,12 @@
-# Mã Giảm Giá
+# Coupon Aggregator
 
 Website tổng hợp mã giảm giá, coupon khuyến mãi từ Lazada, Shopee, Tiki, Sendo,...
 
 ## 🌐 Demo
 
-**Live:** [https://trucuit.github.io/magiamgia/](https://trucuit.github.io/magiamgia/)
+**Live:** [https://trucuit.github.io/coupon-aggregator/](https://trucuit.github.io/coupon-aggregator/)
+
+![Screenshot](screenshots/demo.png)
 
 ## 📋 Tính năng
 
@@ -23,12 +25,11 @@ Website tổng hợp mã giảm giá, coupon khuyến mãi từ Lazada, Shopee, 
 ## 📁 Cấu trúc
 
 ```
-magiamgia/
+coupon-aggregator/
 ├── index.html     # Trang chính (static)
 ├── css/           # Stylesheets
 ├── js/            # JavaScript
 ├── image/         # Hình ảnh, logo
-├── images/        # Hình ảnh bổ sung
 ├── fonts/         # Font files
 └── html/          # HTML partials
 ```
